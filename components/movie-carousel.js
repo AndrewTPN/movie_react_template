@@ -35,7 +35,7 @@ export default function MovieCarousel({ movies }) {
         >
           {/* Background image with overlay */}
           <div className="absolute inset-0 bg-black/50 z-10" />
-          <img src={movie.image || "/placeholder.svg"} alt={movie.title} className="w-full h-full object-cover" />
+          <img src={`https://image.tmdb.org/t/p/original/${movie.backdrop_path}` || "/placeholder.svg"} alt={movie.title} className="w-full h-full object-cover" />
 
           {/* Content */}
           <div className="absolute inset-0 flex items-center z-20">

@@ -40,4 +40,7 @@ export const getImageUrl = (path, size = "medium", type = "poster") => {
   return `${IMAGE_BASE_URL}/${imageSize}${path}`
 }
 
-
+// Example: For The Movie Database (TMDB), you would use:
+// export const API_BASE_URL = "https://api.themoviedb.org/3";
+// export const API_KEY = "your_tmdb_api_key";
+// export const IMAGE_BASE_URL = "https://image.tmdb.org/t/p";

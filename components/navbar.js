@@ -25,12 +25,12 @@ export default function Navbar() {
             <Link href="/tv-shows" className="text-white hover:text-red-500 transition-colors">
               TV Shows
             </Link>
-            <Link href="#" className="text-white hover:text-red-500 transition-colors">
+            <Link href="/movies" className="text-white hover:text-red-500 transition-colors">
               Movies
             </Link>
-            <Link href="#" className="text-white hover:text-red-500 transition-colors">
+            {/* <Link href="#" className="text-white hover:text-red-500 transition-colors">
               New & Popular
-            </Link>
+            </Link> */}
             <Link href="#" className="text-white hover:text-red-500 transition-colors">
               My List
             </Link>

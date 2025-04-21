@@ -6,9 +6,8 @@ import Footer from "@/components/footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "MovieFlix - Your Ultimate Movie Database",
+  title: "MovieFlix - Tan Phu Nguyen",
   description: "Discover the latest movies and TV shows",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({ children }) {
